@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="open-calais-integration-workflow-0.1.0.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="open-calais-integration-workflow" bundleVersion="0.1.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="This package provides component and bundle responsible for tagging content using Open Calais." />
+          <property key="Export-Package" value="com.cognifide.calais.workflow*;version=0.1.0" />
+          <property key="Bundle-Name" value="Cognifide - open-calais-integration workflow" />
+          <property key="Bundle-Vendor" value="Cognifide Ltd." />
+          <property key="Include-Resource" value="META-INF/MANIFEST.MF=$MODULE_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="open-calais-integration-service" />
+    <orderEntry type="library" name="Maven: org.apache.sling:org.apache.sling.auth.core:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.scr.annotations:1.6.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.core:4.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-log4j12:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.day.cq.workflow:cq-workflow-api:5.4.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.sling:org.apache.sling.api:2.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.jcr:jcr:2.0" level="project" />
+  </component>
+</module>
